@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sillymedia.co.in/sitemap.xml
