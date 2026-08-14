@@ -86,8 +86,8 @@ const Contact = () => {
     {
       icon: Instagram,
       title: 'Follow Us',
-      content: 'sillymedia.in',
-      link: 'https://instagram.com/sillymedia.in',
+      content: 'sillymedia.co.in',
+      link: 'https://instagram.com/sillymedia.co.in',
       gradient: 'from-pink-500 to-purple-500'
     },
     {

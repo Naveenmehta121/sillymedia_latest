@@ -6,36 +6,36 @@ const FAQ = () => {
 
   const faqs = [
     {
+      question: 'Does Sillymedia work with restaurants and cafes?',
+      answer: 'Yes. Sillymedia specialises in social media marketing for restaurants, cafés, bars, lounges, and hospitality brands across Delhi NCR. Our current and past clients include Bakoo Yaar (restaurant & bar), The Spot (café), Olives and Figs (Mediterranean restaurant), Meraki Café, Odam Café, Delight Dining, Saga, and BIRINJ BIRYANI — all managed from our base in Greater Noida.'
+    },
+    {
+      question: 'What areas of Delhi NCR does Sillymedia cover?',
+      answer: 'Sillymedia is based in Greater Noida and serves clients across the entire Delhi NCR region — including Delhi, Noida, Greater Noida, and Gurgaon. We work with both local single-outlet brands and multi-location chains across the NCR.'
+    },
+    {
+      question: 'What does social media management cost at Sillymedia?',
+      answer: 'We offer three monthly packages: Starter at ₹15,999/month (8–9 creatives — reels + posts), Growth at ₹34,999/month (12 creatives with strategy, analytics, and stories), and Premium at ₹49,999/month (16–20 creatives with full brand management, Google Business Profile, and reputation management). Custom enterprise quotes are also available.'
+    },
+    {
+      question: 'Does Sillymedia do influencer marketing?',
+      answer: 'Yes. Sillymedia runs a dedicated influencer marketing division for restaurant and hospitality brands in Delhi NCR. We handle influencer discovery, outreach, campaign management, and performance tracking. We also offer a commission-based influencer model where compensation is tied to actual results — reducing upfront risk for restaurant and café clients.'
+    },
+    {
+      question: 'What is the commission-based influencer model?',
+      answer: 'Unlike flat-fee influencer arrangements, Sillymedia\'s commission-based model ties influencer compensation to measurable outcomes — such as footfall, tracked reservations, or promo code redemptions. This aligns incentives between the brand, agency, and influencer, making it especially effective for restaurants wanting to track direct ROI from influencer campaigns.'
+    },
+    {
       question: 'How soon can I see results?',
-      answer: 'You\'ll typically see initial improvements in engagement within the first 2-3 weeks. Significant growth in followers and meaningful business impact usually becomes evident within 4-6 weeks. Our fastest client transformations have achieved 150%+ growth in just 30 days!'
+      answer: 'Initial engagement improvements are typically visible within 2–3 weeks. Meaningful follower growth and business impact — footfall, reservations, online orders — usually appear within 4–6 weeks. Our case studies show Bakoo Yaar achieved +180% engagement in 4 months, and The Spot achieved +400% engagement and +85% footfall in just 2 months.'
     },
     {
-      question: 'Do you only work with cafés and restaurants?',
-      answer: 'Not at all! While we have extensive experience in the F&B industry, we work with brands across all sectors - from lifestyle and fashion to tech startups and professional services. We adapt our creative approach to fit any industry that\'s serious about growth.'
-    },
-    {
-      question: 'What makes Sillymedia different from other agencies?',
-      answer: 'Three key differentiators: Daily posting with premium content quality, fun personality combined with professional execution, and our focus on building genuine connections rather than just follower counts. We don\'t just manage social media - we create digital experiences that transform brands.'
-    },
-    {
-      question: 'Can I see examples of your work before signing up?',
-      answer: 'Absolutely! Our portfolio showcases detailed case studies with before/after comparisons, growth metrics, and client testimonials. We\'re also happy to schedule a call to discuss specific examples relevant to your industry and goals.'
-    },
-    {
-      question: 'Do you handle paid advertising too?',
-      answer: 'Yes! Our Growth and Premium packages include comprehensive paid advertising management across Meta (Facebook & Instagram), Google Ads, and other platforms. We integrate paid strategies seamlessly with organic content for maximum impact and ROI.'
-    },
-    {
-      question: 'What if I\'m not satisfied with the results?',
-      answer: 'We offer a 30-day money-back guarantee on all our plans. If you\'re not completely satisfied with our work and the results we deliver, we\'ll refund your investment. However, our 98% client retention rate speaks to the quality of our work!'
-    },
-    {
-      question: 'How much input do I have in the content creation process?',
-      answer: 'You have as much or as little involvement as you prefer! We start with a comprehensive brand briefing to understand your vision, then create content calendars for your approval. You can be hands-on with reviews and feedback, or trust our expertise for a fully managed experience.'
+      question: 'What makes Sillymedia different from other agencies in Delhi NCR?',
+      answer: 'Three key differentiators: (1) Deep specialisation in the F&B and hospitality sector — we understand dining occasion marketing and food content standards. (2) A dedicated influencer division with a commission-based model not offered by most generalist agencies. (3) Daily content delivery combined with strategy and analytics, giving you both consistency and growth, not just aesthetics.'
     },
     {
       question: 'Do you provide analytics and reporting?',
-      answer: 'Yes! All plans include detailed monthly analytics reports showing growth metrics, engagement rates, reach, and ROI. Premium clients get access to our custom reporting dashboard with real-time analytics and weekly performance calls with dedicated account managers.'
+      answer: 'Yes. All plans include monthly analytics reports covering engagement rates, follower growth, reach, and ROI tracking. Premium plan clients also receive monthly performance insights, competitor benchmarking reports, and Google Business Profile analytics.'
     }
   ];
 
@@ -44,7 +44,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-purple-900 via-black to-blue-900">
+    <section id="faq" className="py-20 bg-gradient-to-br from-purple-900 via-black to-blue-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-6">

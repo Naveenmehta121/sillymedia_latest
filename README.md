@@ -4,7 +4,7 @@
     <strong>Where Creativity Meets Growth.</strong>
     <br />
     <br />
-    <a href="https://instagram.com/sillymedia.in">Instagram</a>
+    <a href="https://instagram.com/sillymedia.co.in">Instagram</a>
     ·
     <a href="mailto:sillymedia.in@gmail.com">Contact Us</a>
   </p>
@@ -89,7 +89,7 @@ src/
 
 - **Phone:** +91 70704 90795
 - **Email:** sillymedia.in@gmail.com
-- **Instagram:** [@sillymedia.in](https://instagram.com/sillymedia.in)
+- **Instagram:** [@sillymedia.co.in](https://instagram.com/sillymedia.co.in)
 - **Location:** Greater Noida, India
 
 ---

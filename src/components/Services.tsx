@@ -20,49 +20,49 @@ const Services = () => {
     {
       icon: Share2,
       title: 'Social Media Management',
-      description: 'Daily posting, community engagement, and platform optimization across all social channels.',
+      description: 'Daily Instagram posting, reel publishing, community engagement, and platform optimisation for restaurant and hospitality brands across Delhi NCR. Includes content calendars, hashtag research, and monthly analytics.',
       features: ['Daily Content Creation', 'Community Management', 'Analytics & Insights', 'Hashtag Strategy']
     },
     {
       icon: Palette,
       title: 'Branding',
-      description: 'Complete brand identity creation and positioning that makes your business unforgettable.',
+      description: 'Complete brand identity creation for restaurants, cafés, and lifestyle businesses — including logo design, brand guidelines, visual identity, and positioning strategy.',
       features: ['Logo Design', 'Brand Guidelines', 'Visual Identity', 'Brand Strategy']
     },
     {
       icon: Camera,
       title: 'Content Creation',
-      description: 'Professional photography, graphics, and copywriting that stops scrollers in their tracks.',
-      features: ['Photography', 'Graphic Design', 'Copywriting', 'Content Planning']
+      description: 'Professional food photography, graphic design, Instagram reels, and copywriting for restaurant and F&B brands. Monthly content planning included.',
+      features: ['Food Photography', 'Graphic Design', 'Copywriting', 'Content Planning']
     },
     {
       icon: Target,
       title: 'Ads & Campaigns',
-      description: 'Targeted advertising campaigns that convert browsers into loyal customers.',
+      description: 'Targeted Meta Ads (Facebook & Instagram) and Google Ads campaigns for restaurants and cafés in Delhi, Noida, Greater Noida, and Gurgaon — driving reservations, footfall, and brand awareness.',
       features: ['Meta Ads', 'Google Ads', 'Campaign Strategy', 'Performance Tracking']
     },
     {
       icon: Users,
       title: 'Influencer Marketing',
-      description: 'Strategic partnerships with influencers who align with your brand values.',
-      features: ['Influencer Outreach', 'Campaign Management', 'Performance Analysis', 'Relationship Building']
+      description: 'Dedicated influencer marketing division for Delhi NCR restaurants and hospitality brands. Includes a commission-based influencer model where compensation is tied to measurable outcomes — reducing upfront risk.',
+      features: ['Influencer Outreach', 'Commission-Based Model', 'Campaign Management', 'Performance Analysis']
     },
     {
       icon: Video,
       title: 'Video Editing',
-      description: 'Professional video content that engages, entertains, and converts your audience.',
+      description: 'Professional video editing for Instagram Reels, YouTube Shorts, and promotional videos. Includes motion graphics, hooks, and captions optimised for food and hospitality brands.',
       features: ['Reels & Shorts', 'Promotional Videos', 'Motion Graphics', 'Video Strategy']
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp API Marketing',
-      description: 'Leverage the power of WhatsApp Business API to reach customers directly with personalized messaging campaigns.',
+      description: 'WhatsApp Business API campaigns for restaurants and retail brands — broadcast messaging, automated replies, customer segmentation, and tracked analytics.',
       features: ['Broadcast Campaigns', 'Automated Replies', 'Customer Segmentation', 'Analytics & Tracking']
     },
     {
       icon: Globe,
       title: 'Web Development',
-      description: 'Custom websites and web applications built with modern technology to drive conversions and elevate your brand online.',
+      description: 'Custom responsive websites and landing pages for restaurants, cafés, and lifestyle brands in Delhi NCR. Includes e-commerce, online reservation pages, and on-page SEO.',
       features: ['Responsive Design', 'E-commerce Solutions', 'Landing Pages', 'SEO Optimization']
     }
   ];
@@ -85,6 +85,9 @@ const Services = () => {
               What We Do
             </h2>
           </div>
+          <p className="text-lg text-white font-medium max-w-3xl mx-auto mb-3">
+            Sillymedia provides social media management, influencer marketing, content creation, paid advertising, web development, and WhatsApp marketing to restaurant, café, and hospitality brands across Delhi NCR — including Delhi, Noida, Greater Noida, and Gurgaon.
+          </p>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             We don't just manage social media – we craft digital experiences that transform
             brands and create lasting connections with audiences.

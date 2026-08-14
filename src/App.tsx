@@ -85,8 +85,8 @@ function App() {
                 <Instagram className="text-purple-400 mr-2" size={20} />
                 <h4 className="text-white font-semibold">Follow Us</h4>
               </div>
-              <a href="https://instagram.com/sillymedia.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
-                sillymedia.in
+              <a href="https://instagram.com/sillymedia.co.in" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                sillymedia.co.in
               </a>
             </div>
 

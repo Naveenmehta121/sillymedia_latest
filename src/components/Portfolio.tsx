@@ -11,7 +11,7 @@ const Portfolio = () => {
       name: 'Bakoo Yaar',
       category: 'Restaurant & Bar',
       image: '/images/restaurants/bakoo yaar.jpeg',
-      description: 'Complete branding and social media transformation for a trendy restaurant & bar chain.',
+      description: 'Multi-location restaurant and bar chain in Delhi NCR. Sillymedia delivered unified brand strategy, location-specific Instagram content, food photography, and Meta Ads — achieving +180% engagement and +45% footfall increase over 4 months.',
       results: '+180% engagement, 45% increase in footfall',
       gradient: 'from-orange-500 to-red-500'
     },
@@ -20,7 +20,7 @@ const Portfolio = () => {
       name: 'Delight Dining',
       category: 'Restaurant',
       image: '/images/restaurants/delight dining .jpg.jpeg',
-      description: 'Luxury dining experience showcased through premium content and targeted campaigns.',
+      description: 'Luxury dining restaurant in Delhi NCR. Sillymedia showcased the premium dining experience through high-end food photography, targeted Instagram campaigns, and reservation-driving Meta Ads.',
       results: '+220% engagement, 60% reservation increase',
       gradient: 'from-purple-500 to-pink-500'
     },
@@ -29,7 +29,7 @@ const Portfolio = () => {
       name: 'Saga',
       category: 'Multi-Cuisine Restaurant',
       image: '/images/restaurants/saga.jpeg',
-      description: 'Modern multi-cuisine brand positioning with viral content strategies.',
+      description: 'Modern multi-cuisine restaurant in Delhi NCR. Sillymedia built a contemporary brand positioning with viral content strategies and a focused Instagram growth campaign.',
       results: '500K+ reach, 25% sales boost',
       gradient: 'from-blue-500 to-cyan-500'
     },
@@ -38,7 +38,7 @@ const Portfolio = () => {
       name: 'Olives and Figs',
       category: 'Restaurant',
       image: "/images/restaurants/Olives 'n' Figs.jpeg",
-      description: 'Premium Mediterranean dining brand built with community-focused content and influencer partnerships.',
+      description: 'New Mediterranean restaurant in Delhi NCR launched from zero digital presence. Sillymedia executed a full brand launch campaign including influencer partnerships and targeted Meta Ads — achieving full reservation bookings within 3 months.',
       results: '300% online visibility, 40% sales growth',
       gradient: 'from-green-500 to-emerald-500'
     },
@@ -47,7 +47,7 @@ const Portfolio = () => {
       name: 'Meraki',
       category: 'Café',
       image: '/images/restaurants/cafe meraki .jpeg',
-      description: 'Creative café branding with artistic content and influencer collaborations.',
+      description: 'Creative café in Delhi NCR. Sillymedia built an artistic brand identity on Instagram with original content and influencer collaborations, achieving premium brand positioning.',
       results: '+150% brand recognition, premium positioning',
       gradient: 'from-violet-500 to-purple-500'
     },
@@ -56,7 +56,7 @@ const Portfolio = () => {
       name: 'Odam Café',
       category: 'Café',
       image: '/images/restaurants/cafe Odam.jpeg',
-      description: 'Café social media management with daily content and community building.',
+      description: 'Café in Delhi NCR managed by Sillymedia with daily content publishing, community building, and consistent Instagram growth strategy delivering 2M+ impressions.',
       results: '2M+ impressions, 35% customer retention',
       gradient: 'from-amber-500 to-orange-500'
     },
@@ -65,7 +65,7 @@ const Portfolio = () => {
       name: 'BIRINJ BIRYANI',
       category: 'Famous Biryani Chain',
       image: '/images/restaurants/birinj biriyan.jpeg',
-      description: 'Iconic biryani chain digital presence elevated through bold branding and food content strategies.',
+      description: 'Iconic biryani chain in Delhi NCR. Sillymedia elevated their digital presence with bold food branding, Reels-first content strategy, and a +250% follower growth campaign.',
       results: '+250% followers, premium brand positioning',
       gradient: 'from-yellow-500 to-red-500'
     },
@@ -74,7 +74,7 @@ const Portfolio = () => {
       name: 'The Spot',
       category: 'Café',
       image: '/images/restaurants/The Spot.jpeg',
-      description: 'Entertainment venue promotion with event marketing and viral campaigns.',
+      description: 'Café and entertainment venue in Greater Noida. Sillymedia drove viral event campaigns and influencer collaborations that delivered +400% engagement and trending hashtags in the Delhi NCR food and nightlife space.',
       results: '400% event attendance, trending hashtags',
       gradient: 'from-pink-500 to-purple-500'
     }
@@ -111,7 +111,7 @@ const Portfolio = () => {
               <div className="aspect-square relative">
                 <img
                   src={project.image}
-                  alt={project.name}
+                  alt={`${project.name} — ${project.category} social media marketing by Sillymedia, Delhi NCR`}
                   decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

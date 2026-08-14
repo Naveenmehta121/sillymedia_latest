@@ -27,9 +27,12 @@ const SocialProof = () => {
 
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent mb-4">
             Trusted by Brands Everywhere
           </h2>
+          <p className="text-lg text-white font-medium max-w-3xl mx-auto mb-3">
+            Sillymedia has managed social media for 20+ restaurant, café, and hospitality brands across Delhi NCR since 2025, achieving an average 90% audience growth rate and a 98% client retention rate.
+          </p>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Join the community of successful brands that trust us with their digital growth
             across all major social platforms.
@@ -93,15 +96,15 @@ const SocialProof = () => {
           <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/20 rounded-3xl p-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                '/images/restaurants/bakoo yaar.jpeg',
-                "/images/restaurants/Olives 'n' Figs.jpeg",
-                '/images/restaurants/The Spot.jpeg',
-                '/images/restaurants/birinj biriyan.jpeg'
-              ].map((image, index) => (
+                { src: '/images/restaurants/bakoo yaar.jpeg', alt: 'Bakoo Yaar restaurant and bar — social media content by Sillymedia, Delhi NCR' },
+                { src: "/images/restaurants/Olives 'n' Figs.jpeg", alt: "Olives and Figs Mediterranean restaurant — Instagram campaign by Sillymedia, Delhi NCR" },
+                { src: '/images/restaurants/The Spot.jpeg', alt: 'The Spot café — viral influencer marketing campaign by Sillymedia, Greater Noida' },
+                { src: '/images/restaurants/birinj biriyan.jpeg', alt: 'BIRINJ BIRYANI chain — brand content and growth strategy by Sillymedia, Delhi NCR' },
+              ].map((item, index) => (
                 <div key={index} className="group relative overflow-hidden rounded-xl aspect-square">
                   <img
-                    src={image}
-                    alt={`Instagram post ${index + 1}`}
+                    src={item.src}
+                    alt={item.alt}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
@@ -116,13 +119,13 @@ const SocialProof = () => {
 
             <div className="text-center mt-6">
               <a
-                href="https://instagram.com/sillymedia.in"
+                href="https://instagram.com/sillymedia.co.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
               >
                 <Instagram className="mr-2" size={20} />
-                Follow @sillymedia.in
+                Follow @sillymedia.co.in
               </a>
             </div>
           </div>

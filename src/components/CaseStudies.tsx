@@ -8,8 +8,8 @@ const CaseStudies = () => {
     {
       client: 'Bakoo Yaar',
       category: 'Restaurant & Bar',
-      challenge: 'Inconsistent brand messaging across multiple locations and low digital engagement',
-      solution: 'Unified brand strategy with location-specific content, food photography, and community engagement campaigns',
+      challenge: 'Bakoo Yaar, a multi-location restaurant and bar in Delhi NCR, had inconsistent brand messaging across locations and low digital engagement — with no unified content strategy or visual identity across their Instagram channels.',
+      solution: 'Sillymedia built a unified brand voice and visual identity across all Bakoo Yaar locations. We produced a weekly food and ambience photography series, ran location-specific Instagram campaigns, launched community engagement initiatives (polls, UGC reposts, giveaways), and deployed targeted Meta Ads to drive weekend footfall.',
       results: {
         engagement: '+180%',
         followers: '+20K',
@@ -23,9 +23,9 @@ const CaseStudies = () => {
     },
     {
       client: 'The Spot',
-      category: 'Café',
-      challenge: 'Struggling to attract younger audience and increase footfall',
-      solution: 'Viral content creation with trending formats and strategic influencer collaborations',
+      category: 'Café — Greater Noida',
+      challenge: 'The Spot café in Greater Noida was struggling to attract a younger, Gen-Z audience and increase weekday footfall. Their Instagram presence had low engagement and no reels strategy.',
+      solution: 'Sillymedia built a viral-first reels strategy using trending audio, fast-cut food B-rolls, and customer POV content. We executed 3 targeted influencer collaborations with micro-influencers (10K–50K followers) in the Delhi NCR food niche, and combined this with event-night promotions and story-driven campaigns.',
       results: {
         engagement: '+400%',
         followers: '+25K',
@@ -39,9 +39,9 @@ const CaseStudies = () => {
     },
     {
       client: 'Olives and Figs',
-      category: 'Restaurant',
-      challenge: 'New brand launch with zero digital presence in a competitive dining market',
-      solution: 'Full-scale brand launch strategy with premium content, influencer partnerships, and targeted ad campaigns',
+      category: 'Restaurant — Delhi NCR',
+      challenge: 'Olives and Figs was a new Mediterranean restaurant launching with zero digital presence in a competitive Delhi NCR dining market. They needed to build an audience and drive reservations from scratch before opening day.',
+      solution: 'Sillymedia executed a full-scale brand launch: premium food and interiors photography, a pre-launch Instagram countdown campaign, 5 influencer partnerships (food bloggers and lifestyle creators with 20K–100K Delhi NCR followers), and targeted Meta Ads geo-targeted to Delhi, Noida, and Greater Noida residents with high dining-out intent.',
       results: {
         engagement: '+300%',
         followers: '+18K',
@@ -68,9 +68,12 @@ const CaseStudies = () => {
     <section className="py-20 bg-gradient-to-br from-black via-purple-900 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent mb-4">
             Case Studies & Results
           </h2>
+          <p className="text-lg text-white font-medium max-w-3xl mx-auto mb-3">
+            Sillymedia has managed social media for 20+ restaurant, café, and hospitality brands across Delhi NCR since 2025. Below are three documented client campaigns with measured outcomes.
+          </p>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Real transformations, real results. See how we've helped brands achieve
             explosive growth and dominate their markets.
